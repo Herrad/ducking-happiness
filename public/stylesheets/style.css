@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+.content{width: 1280px;margin:auto;font-size: 24px;}
+
+	.content .user-details{width:49%;}
+
+.content .field {float: left; width: 500px;line-height:36px; margin-top: 20px;}
+	.content .field:first-child {margin-top: 0px;}
+.content .field input{float: right; width: 275px;line-height:36px; }
+.content .submit {float:left;width:500px;height:36px; margin-top:20px;}

@@ -1,23 +1,28 @@
 <html>
-	<head>
-		<link rel="stylesheet" href="stylesheets/style.css"/>
-		<title>Welcome</title>
-	</head>
-	<body>
-		<div class="content">
-			<h1>Welcome Guest!</h1>
-			<div class="user-details">
-				<h2>Enter your details to log in</h2>
-				<img src="images/unknown_user.png">
-				<form method="POST" action="/user/login">
+<head>
+	<link rel="stylesheet" href="stylesheets/style.css"/>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="content">
+		<h1>Welcome Guest!</h1>
+		<div class="user-details">
+			<h2>Enter your details to log in</h2>
+			<form method="POST" action="/user/login">
+				<div class="field">
+					<label for"email">Email address:</label>
 					<input name="email" type="email"/>
+				</div>
+				<div class="field">
+					<label for"password">Password:</label>
 					<input name="password" type="password"/>
-					<input type="submit"/>
-				</form>
-			</div>
-			<div class="accounts">
-				
-			</div>
+				</div>
+				<input class="submit" type="submit" value="Log In" />
+			</form>
 		</div>
-	</body>
+		<div class="accounts">
+
+		</div>
+	</div>
+</body>
 </html>
